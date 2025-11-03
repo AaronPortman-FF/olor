@@ -1,0 +1,11 @@
+---
+description: Infrastructure
+alwaysApply: true
+---
+
+-- React Context is used throughout the whole application to serve up relevant data that the application needs
+-- Any references to API or FridgeAPI refer to an external computer that provides the context
+-- Important: Context is system critical to use the application. If we don't have up-to-date context, the application will not work
+-- AppContextType and ApiContextType within the root/index.d.ts refer to the structure of the context objects
+
+
