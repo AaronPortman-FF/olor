@@ -8,6 +8,17 @@ function Home() {
 
       {/* Features Section */}
       <div className="features">
+                {/* Coffee Beans - Image Right */}
+                <div className="feature feature-right">
+          <div className="feature-content">
+            <h2>Single Origin Coffee Beans from Colombia</h2>
+            <p>Experience the finest single origin coffee beans from Colombia, carefully sourced and expertly roasted. Each cup tells the story of its unique Colombian origin.</p>
+          </div>
+          <div className="feature-image">
+            <img src="/assets/bags.png" alt="Coffee Beans" />
+          </div>
+        </div>
+
         {/* Donuts - Image Left */}
         <div className="feature feature-left">
           <div className="feature-content">
@@ -19,27 +30,16 @@ function Home() {
           </div>
         </div>
 
-        {/* Coffee Beans - Image Right */}
-        <div className="feature feature-right">
-          <div className="feature-content">
-            <h2>Single Origin Coffee Beans from Colombia</h2>
-            <p>Experience the finest single origin coffee beans from Colombia, carefully sourced and expertly roasted. Each cup tells the story of its unique Colombian origin.</p>
-          </div>
-          <div className="feature-image">
-            <img src="/assets/bags.png" alt="Coffee Beans" />
-          </div>
-        </div>
-
         {/* Community - Image Left */}
         <div className="feature feature-left">
-
+        <div className="feature-image">
+            <img src="/assets/community.png" alt="Community" />
+          </div>
           <div className="feature-content">
             <h2>Dog Friendly & Welcoming to All</h2>
             <p>Olor Coffee Bar is a place for everyone. Bring your furry friends and enjoy our warm, inclusive community space where all are welcome.</p>
           </div>
-          <div className="feature-image">
-            <img src="/assets/community.png" alt="Community" />
-          </div>
+
         </div>
       </div>
     </div>
